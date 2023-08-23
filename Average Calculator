@@ -1,0 +1,28 @@
+// this is a average calculator I created. Definitely hard coded and needs some fixes but it gets the job done.
+
+import java.util.Scanner;
+public class AverageCalc {
+
+    public static void main(String[] args)
+    {
+        // to create a scanner
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        Double num1 = scan.nextDouble();
+        System.out.println("Enter the second number: ");
+        Double num2 = scan.nextDouble();
+        System.out.println("Enter the third number: ");
+        Double num3 = scan.nextDouble();
+        System.out.println("Adding: ");
+        System.out.println(num1 + " + " + num2 + " + " + num3);
+        //  to get the sum of num 1, num 2, and num 3
+        Double average = (num1 + num2 + num3) / 3;
+        System.out.println("Average is: " + average);
+        scan.close();
+
+    }
+
+
+}
+
+// coded by Andrew Brockeborough
