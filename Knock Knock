@@ -1,0 +1,22 @@
+// This is a corny knock knock joke I coded. When ran, the system prints out "knock, knock" and the user is supposed to respond with "whose there?", it then prints out "long pause...", and then the joke is "long pause.."
+Get it? Because Java is slow... very funny haha.
+
+import java.util.Scanner;
+public class KnockKnock {
+
+    public static void main(String[] args)
+    {
+        // to create a scanner
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Knock, knock ");
+
+        String KnockKnock = scan.nextLine();
+        System.out.print("long pause... ");
+
+        String LongPause = scan.nextLine();
+        System.out.print("Java ");
+
+    }
+}
+
+// Coded by Andrew Brockenborough
